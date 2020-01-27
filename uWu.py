@@ -61,8 +61,7 @@ while True :
             database[i][2]=int(database[i][2])
 
           if sort == 1:
-            for i in range (len(database)):
-              database[i][2]=int(database[i][2])
+
             b=len(database)
             for x in range(b-1,0,-1):
               for y in range(x):
@@ -75,8 +74,7 @@ while True :
               print("%2s \t %25s \t %10s" %(row[0],row[1],row[2]))
 
           elif sort == 2 :
-            for data in range(len(database)):
-              database[data][2]=int(database[data][2])
+
             b=len(database)
             for x in range(1,b,1):
               for y in range(x,0,-1):
@@ -89,6 +87,7 @@ while True :
               print("%2s \t %25s \t %10s" %(row[0],row[1],row[2]))
           
           elif sort == 3 :
+            
             for i in range(len(database)-1):
               for x in range (i+1,len(database)):
                 if database[i][2]>database[x][2]:
