@@ -4,7 +4,7 @@ import os
 while True :
   menu = ['1. Data barang', '2. Pencarian Barang', '3. Penjualan', '4.Stok']
   submenu1 = ['1.list barang', '2.input barang', '3.kembali ke menu utama', '4.List harga berurutan']
-  submenu2 = ['1.Bubble Sort', '2.Insert Sort', '3.Selection Sort']
+  submenu2 = ['1.Bubble Sort', '2.Insert Sort', '3.Selection Sort','4.kembali ke submenu']
   DATABASE_FILE = 'database.csv'
   database = []
 
